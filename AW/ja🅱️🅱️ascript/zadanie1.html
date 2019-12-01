@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>zad1</title>
+    <style media="screen">
+      .pierwsza {
+        background-color: red;
+      }
+
+      .kolor {
+        border: solid;
+        margin: 6px;
+        padding: 12px;
+      }
+    </style>
+    <script type="text/javascript">
+    function FUN(){
+      document.getElementsByClassName('pierwsza').classList.remove('pierwsza');
+    }
+    </script>
+  </head>
+  <body>
+    <div class="kolor pierwsza">
+      Szkoła z klasą
+    </div>
+    <div class="kolor pierwsza">
+      Szkoła z klasą
+    </div>
+    <div class="kolor">
+      Szkoła z klasą
+    </div>
+    <button type="button" name="button" onclick="FUN()">zmiana</button>
+  </body>
+</html>
