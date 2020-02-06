@@ -2,7 +2,11 @@
 <html lang="pl" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/style.css">
+    <style media="screen">
+      table,tr,td,th {
+        border: solid 1px black;
+      }
+    </style>
   </head>
   <body>
     <form action="index.html" method="post">
