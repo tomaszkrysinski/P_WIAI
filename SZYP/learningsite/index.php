@@ -2,7 +2,7 @@
 <html lang="pl" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>learningsitetitle</title>
+		<title>learningsite_title</title>
 		<link rel="stylesheet" href="/css/layout.css">
 		<link rel="stylesheet" href="/css/style.css">
 	</head>

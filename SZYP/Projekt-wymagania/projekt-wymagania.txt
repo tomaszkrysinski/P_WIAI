@@ -1,0 +1,46 @@
+Wymagania
+  1. System logowania
+    • Oparty o bazę danych
+    • Formularz logowania
+  2. Szyfrowanie hasła: Argon 2i, 2d, 2id (nie może być w sposób jawny w naszej bazie)
+  3. Unikatowy login/nazwa użytkownika
+  4. Status użytkownika (aktywny/nieaktywny/zablokowany/usunięty)
+    Do użytkownika może być wysłany mail który potwierdza i zmienia w bazie ze stanu nieaktywny na aktywny
+  5. Sesje (na 5-10 min, może być odliczanie wyświetlone)
+  6. Dwa panele
+    a) User (zwykły użytkownik po zalogowaniu)
+    b) Administrator (może usuwać, dodawać użytkowników)
+  7. Zabezpieczenie przed wejściem na strony zabezpieczone (jeśli nie jest zalogowany to zostanie przeniesiony do formularza logowania
+  8. Zabezpieczenie przed SQL Injection
+  9. Projekt bazy danych (xampp; zdj. widoku bazy danych i relacje)
+  10. Dokumentacja (php documentator – np. generuje dokument z komentarzy)
+  11. Git -> systematyczne prace! (będą pokazywane daty budowania strony)
+  12. Responsywna strona www
+  • (np. na komórki – 5 cali i coś ; nie na Xiaomi bo mają specyficzny rozmiar)
+  • Nie wolno Laravela
+  • Można Bootstrapa
+
+Terminy
+  • Szablon strony www: do końca listopada
+  • Projekt bazy: do 15 listopada
+  • System logowania: do ferii
+  • Oddanie projektu oficjalne: do końca marca
+
+Temat
+Język techniczny – APLIKACJA DO NAUKI JĘZYKA TECHNICZNEGO
+- może działać jak baza z pytaniami do e.13 ale nie za nudne, quizy wymiennie np. z uzupełnianiem zdań, klikaniem
+(teoretycznie angielski)
+Techniki: Informatycy, elektronicy, kolejarze
+Dzielimy według np. e.12, e.13 lub bazy danych, strony
+Podejrzeć dr henry English
+Wykresy w PHP na jakim poziomie jest uczeń (gotowe metody w necie)
+
+Dokumentacja
+  • Dla programisty
+Określić wykorzystane technologie
+Opisanie: klas, metod, funkcji
+  • Dla usera
+Opisane: co i jak może zrobić
+  • Dla administratora
+
+NIE TRZEBA MVC!
