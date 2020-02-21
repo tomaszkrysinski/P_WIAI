@@ -9,7 +9,6 @@
       <span></span>
       <span>RGB: 204, 204, 204</span>
     </div>
-    <footer>Copyleft (ↄ) 2020 MildlyLivid No Rights Reserved. <br/> This software is provided "as is", without warranty of any kind.</footer>
   </body>
   <script type="text/javascript">
   'use strict';
@@ -18,20 +17,29 @@
     elem : document.getElementById("box"),
     height : document.getElementById("box").getBoundingClientRect().height,
     width : document.getElementById("box").getBoundingClientRect().width,
-    coordsDisp : document.getElementById("box").children[0]
+    left : document.getElementById("box").offsetLeft,
+    top : document.getElementById("box").offsetTop,
+    coordsDisp : document.getElementById("box").children[0],
+    rgbDisp : document.getElementById("box").children[1]
   }
 
-  let posX = 0;
-  let posY = 0;
+  let posX = 0; let posY = 0;
 
   box.elem.onmousemove = (event) => {
-    posX = event.x - box.elem.offsetLeft;
-    posY = event.y - box.elem.offsetTop;
+    posX = event.x - box.left;
+    posY = event.y - box.top;
+
+    box.elem.style.backgroundColor = `rgb(${posX}, ${posY}, 204)`;
+
     box.coordsDisp.innerHTML = `X: ${posX} Y: ${posY}`;
-    box.elem.style.backgroundColor = `rgb (${posX},${posY},204)`
+    box.rgbDisp.innerHTML = `RGB: ${posX}, ${posY}, 204`;
   }
+
   box.elem.onmouseleave = () => {
+    box.elem.style.backgroundColor = `rgb(204, 204, 204)`;
+
     box.coordsDisp.innerHTML = "";
+    box.rgbDisp.innerHTML = `RGB: 204, 204, 204`;
   }
   </script>
 </html>
