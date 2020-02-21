@@ -1,0 +1,6 @@
+Tabliczka mnożenia 
+
+Użytkownik podaje rozmiar tabliczki mnożenia w formularzu np. 15 => 15x15, 
+utwórz drugą przekątną, wykorzystaj klasy w CSS, 
+oblicz sumę wartości jednej i drugiej przekątnej, 
+dodaj nagłówki dla wierszy i kolumn 
