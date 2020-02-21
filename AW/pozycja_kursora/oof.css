@@ -1,0 +1,13 @@
+div#box {
+  height: 255px;
+  width: 255px;
+  background-color: #CCCCCC;
+  display: flex;
+  
+}
+div#box > :nth-child(0) {
+
+}
+footer {
+  padding-top: 25px;
+}

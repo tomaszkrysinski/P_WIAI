@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./oof.css">
+  </head>
+  <body>
+    <div id="box">
+      <span></span>
+      <span>RGB: 204, 204, 204</span>
+    </div>
+    <footer>Copyleft (ↄ) 2020 MildlyLivid No Rights Reserved. <br/> This software is provided "as is", without warranty of any kind.</footer>
+  </body>
+  <script type="text/javascript">
+  'use strict';
+
+  const box = {
+    elem : document.getElementById("box"),
+    height : document.getElementById("box").getBoundingClientRect().height,
+    width : document.getElementById("box").getBoundingClientRect().width,
+    coordsDisp : document.getElementById("box").children[0]
+  }
+
+  let posX = 0;
+  let posY = 0;
+
+  box.elem.onmousemove = (event) => {
+    posX = event.x - box.elem.offsetLeft;
+    posY = event.y - box.elem.offsetTop;
+    box.coordsDisp.innerHTML = `X: ${posX} Y: ${posY}`;
+    box.elem.style.backgroundColor = `rgb (${posX},${posY},204)`
+  }
+  box.elem.onmouseleave = () => {
+    box.coordsDisp.innerHTML = "";
+  }
+  </script>
+</html>
