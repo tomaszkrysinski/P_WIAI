@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formularz - transport szynowy - zadania</title>
+    <link rel="stylesheet" href="./knockoff_gmaterial.css">
+  </head>
+  <body>
+    <form class="form-main" method="post">
+      <legend>Dodaj zadanie</legend>
+      <input type="text" name="job-name" value="" />
+      <input type="text" name="job-desc" value="" />
+      <fieldset>
+        <input type="radio" name="job-type" value="cargo" />
+        <input type="radio" name="job-type" value="shunting" />
+        <input type="radio" name="job-type" value="pax" />
+        <input type="radio" name="job-type" value="special" />
+      </fieldset>
+      <input type="number" name="job-priority" min="1" max="100" />
+      <select class="job-loco" name="job-loco">
+        <optgroup label="Elektryczne">
+          <option>ET22</option>
+          <option>EU07</option>
+          <option>207E</option>
+          <option>EM10</option>
+        </optgroup>
+        <optgroup label="Spalinowe, hybrydy">
+          <option>SM03</option>
+          <option>ST44</option>
+          <option>ST44-3K</option>
+        </optgroup>
+        <optgroup label="EZT">
+          <option>EN57</option>
+        </optgroup>
+      </select> <!-- DODAĆ OD HUJA FORMULARZOWYCH RZECZY  -->
+    </form>
+  </body>
+</html>
