@@ -29,41 +29,6 @@
         </fieldset>
 
 
-        <fieldset class="job-desc">
-
-          <label for="job-desc">Opis zadania</label>
-          <textarea type="text" name="job-desc" class="job-desc borders" maxlength="254"></textarea>
-
-        </fieldset>
-
-
-        <fieldset class="type-select">
-
-          <label>Typ zadania</label>
-
-          <label>
-            <input type="radio" name="job-type" value="cargo" />
-            Towarowy
-          </label>
-
-          <label>
-            <input type="radio" name="job-type" value="shunting" />
-            Manewrowy
-          </label>
-
-          <label>
-            <input type="radio" name="job-type" value="pax" />
-            Pasażerski
-          </label>
-
-          <label>
-            <input type="radio" name="job-type" value="special" required />
-            Specjalny
-          </label>
-
-        </fieldset>
-
-
         <fieldset class="loco-select">
           <label>Pojazd
             <select class="job-loco-type" required>
@@ -104,6 +69,41 @@
           <label>Numer poj.
             <input type="number" class="job-loco-number hide-arrow borders" min="1" required />
           </label>
+
+        </fieldset>
+
+
+
+        <fieldset class="type-select">
+
+          <label>Typ zadania</label>
+
+          <label>
+            <input type="radio" name="job-type" value="cargo" />
+            Towarowy
+          </label>
+
+          <label>
+            <input type="radio" name="job-type" value="shunting" />
+            Manewrowy
+          </label>
+
+          <label>
+            <input type="radio" name="job-type" value="pax" />
+            Pasażerski
+          </label>
+
+          <label>
+            <input type="radio" name="job-type" value="special" required />
+            Specjalny
+          </label>
+
+        </fieldset>
+
+        <fieldset class="job-desc">
+
+          <label for="job-desc">Opis zadania</label>
+          <textarea type="text" name="job-desc" class="job-desc borders" maxlength="255"></textarea>
 
         </fieldset>
 
