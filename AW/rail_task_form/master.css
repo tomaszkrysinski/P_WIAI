@@ -1,0 +1,71 @@
+input.hide-arrow::-webkit-outer-spin-button,
+input.hide-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input.hide-arrow[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Noto Serif, serif;
+}
+
+div.form-wrap {
+  width: 800px;
+}
+
+fieldset {
+  margin: 10px;
+  padding: 10px;
+
+  border: 1px solid #DDD;
+  border-radius: 14px;
+  box-shadow: 0px 0px 9px -3px #999;
+}
+
+.borders {
+  border: 1px solid #CCC;
+  border-radius: 4px;
+}
+
+div.form-title {
+  margin: 8px;
+  font-size: 2rem;
+}
+
+input.expand {
+  flex-grow: 1;
+}
+
+textarea.job-desc {
+  margin-top: 8px;
+  flex-grow: 1;
+  height: 3.2rem;
+  resize: none;
+}
+
+fieldset.job-info {
+  display: flex;
+  flex-direction: column;
+
+}
+fieldset.job-info > * {
+  margin: 3px;
+}
+
+fieldset.job-info > label {
+  display: flex;
+}
+
+fieldset.job-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset.type-select > label {
+  display: block;
+}
