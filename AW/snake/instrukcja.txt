@@ -1,0 +1,4 @@
+Zadanie 1 
+W folderze snake, macie grę, przeanalizujcie kod, poprawcie nieudogodnienia. A następnie na wzór proszę wykonać próbę gry memo – 4 obrazki to minimum. Dopuszczam pracę w parach, zakładam kontakt w trakcie godzin lekcyjnych / tak jak wykład mamy. 
+ 
+Pozdrawiam Agata Wojcieszak 
