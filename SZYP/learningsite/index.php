@@ -3,17 +3,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>learningsite_title</title>
-		<link rel="stylesheet" href="/css/layout.css">
-		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="./css/layout.css">
+		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body>
 		<div class="container">
-			<?php include "./header.php"; ?>
-			<?php include "./sidebar.php"; ?>
+			<header>
+				<div class="header-sitelogo">
+					<img src="./img/sitelogo.png" alt="logo aplikacji">
+				</div>
+				<?php include "./includes/accountmenu.php"; ?>
+			</header>
 			<main>
-				content goes here - TBD
+				<?php include "./includes/sidenav.php"; ?>
+				<?php include "./includes/mainpanel.php"; ?>
 			</main>
-			<?php include "./footer.php"; ?>
+			<footer>
+				
+			</footer>
 		</div>
 	</body>
 </html>

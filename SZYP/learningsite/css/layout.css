@@ -1,0 +1,12 @@
+.container {
+	display: grid;
+	grid-template: [header-top] "logo middle account" [header-bottom]
+	[topbar-top] "sidebar-options content-title content-options" [topbar-bottom]
+	[main-top] "sidebar-main content-main content-main" [main-bottom]
+	[footer-top] "footer footer footer" [footer-bottom]
+	/ 5fr 17fr 5fr ;
+
+}
+header {
+
+}
