@@ -14,7 +14,8 @@
 				<?php include './includes/cont/accountmenu.php'; ?>
 			</header>
 			<main>
-				<?php include './includes/cont/landing.php'; ?>
+				<?php include './includes/cont/sidenav.php'; ?>
+				<?php include './includes/cont/mainpanel.php'; ?>
 			</main>
 			<footer>
 				<?php include './includes/cont/footer.php'; ?>
